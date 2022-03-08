@@ -1,0 +1,21 @@
+header {
+	height: 4rem;
+	padding: 0.4rem;
+	display: flex;
+	align-items: center;
+}
+.header-title {
+	margin: 0 0.4rem;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+.header-logo {
+	height: 3rem;
+	width: 3rem;
+	object-fit: contain;
+}
+.header-logo img {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}

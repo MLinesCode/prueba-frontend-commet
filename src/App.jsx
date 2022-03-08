@@ -1,7 +1,14 @@
 import React from 'react';
+import CardUser from './components/carduser/CardUser';
+import Header from './layout/Header';
 
 function App() {
-	return <h1>App</h1>;
+	return (
+		<div>
+			<Header />
+			<CardUser />
+		</div>
+	);
 }
 
 export default App;

@@ -1,0 +1,26 @@
+.user-container {
+	width: 90%;
+	height: 6rem;
+	padding: 12px;
+	margin: auto;
+	border-radius: 18px;
+	display: flex;
+	align-items: center;
+	background-color: #033754;
+}
+.user-image {
+	height: 55px;
+	width: 55px;
+	margin: 0 0.5rem;
+	background-color: #00dbba;
+	border-radius: 50%;
+}
+.user-name {
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: white;
+}
+.user-info button {
+	padding: 0.3rem;
+	border: none;
+}
