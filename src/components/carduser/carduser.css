@@ -2,23 +2,30 @@
 	width: 90%;
 	height: 6rem;
 	padding: 12px;
-	margin: auto;
+	margin: 1.4rem auto;
 	border-radius: 18px;
 	display: flex;
 	align-items: center;
+	color: azure;
 	background-color: #033754;
 }
 .user-image {
 	height: 55px;
 	width: 55px;
-	margin: 0 0.5rem;
+	margin: 0 0.6rem;
 	background-color: #00dbba;
 	border-radius: 50%;
+}
+.user-info {
+	padding: 5px;
 }
 .user-name {
 	font-size: 1.3rem;
 	font-weight: 400;
-	color: white;
+}
+.user-id {
+	font-size: 1rem;
+	font-weight: 300;
 }
 .user-info button {
 	padding: 0.3rem;

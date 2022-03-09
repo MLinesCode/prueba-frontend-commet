@@ -9,9 +9,7 @@ function CardUser() {
 			</figure>
 			<div className='user-info'>
 				<p className='user-name'>Nombre del usuario</p>
-				<button className='user-follow' type='button'>
-					Seguir
-				</button>
+				<p className='user-id'>ID</p>
 			</div>
 		</div>
 	);
