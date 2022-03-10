@@ -1,20 +1,26 @@
 .user-container {
 	width: 90%;
 	height: 6rem;
-	padding: 12px;
+	padding: 8px;
 	margin: 1.4rem auto;
-	border-radius: 18px;
+	border-radius: 22px;
 	display: flex;
 	align-items: center;
 	color: azure;
 	background-color: #033754;
 }
 .user-image {
-	height: 55px;
-	width: 55px;
+	height: 68px;
+	width: 68px;
 	margin: 0 0.6rem;
 	background-color: #00dbba;
 	border-radius: 50%;
+	object-fit: contain;
+	overflow: hidden;
+}
+.user-image img {
+	height: 100%;
+	width: 100%;
 }
 .user-info {
 	padding: 5px;

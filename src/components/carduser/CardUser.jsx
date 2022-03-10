@@ -1,15 +1,15 @@
 import React from 'react';
 import './carduser.css';
 
-function CardUser() {
+function CardUser({ picture, firstName, id }) {
 	return (
 		<div className='user-container'>
 			<figure className='user-image'>
-				<img src='' alt='' />
+				<img src={picture} alt={picture} />
 			</figure>
 			<div className='user-info'>
-				<p className='user-name'>Nombre del usuario</p>
-				<p className='user-id'>ID</p>
+				<p className='user-name'>{firstName}</p>
+				<p className='user-id'>{id}</p>
 			</div>
 		</div>
 	);
