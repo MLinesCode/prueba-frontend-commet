@@ -1,20 +1,23 @@
 .user-container {
 	width: 90%;
-	height: 6rem;
-	padding: 8px;
-	margin: 1.4rem auto;
-	border-radius: 22px;
+	max-width: 530px;
+	height: 8rem;
+	max-height: 10rem;
+	padding: 6px;
+	margin: 1.8rem auto;
+	border-radius: 25px;
 	display: flex;
 	align-items: center;
 	color: azure;
 	background-color: #033754;
+	box-shadow: 0 4px 11px rgba(8, 8, 8, 0.568);
 }
 .user-image {
-	height: 68px;
-	width: 68px;
+	height: 95px;
+	width: 95px;
 	margin: 0 0.6rem;
 	background-color: #00dbba;
-	border-radius: 50%;
+	border-radius: 12%;
 	object-fit: contain;
 	overflow: hidden;
 }
@@ -22,12 +25,17 @@
 	height: 100%;
 	width: 100%;
 }
+.user-favorite {
+	height: 25px;
+	width: 25px;
+}
 .user-info {
 	padding: 5px;
 }
 .user-name {
-	font-size: 1.3rem;
+	font-size: 1.8rem;
 	font-weight: 400;
+	padding: 4px;
 }
 .user-id {
 	font-size: 1rem;
