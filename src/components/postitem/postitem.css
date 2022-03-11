@@ -1,0 +1,30 @@
+.post-container {
+	padding: 12px;
+	width: 90%;
+	max-width: 680px;
+	margin: 2rem auto;
+	background: rgba(240, 240, 240, 0.37);
+	backdrop-filter: blur(35px);
+	-webkit-backdrop-filter: blur(5px);
+	border-radius: 35px 0 35px 0;
+	-moz-border-radius: 35px 0 35px 0;
+	-webkit-border-radius: 35px 0 35px 0;
+	box-shadow: 0 4px 30px rgba(32, 32, 32, 0.322);
+}
+.post-container:hover {
+	transform: translateY(-5px);
+	box-shadow: 3px 2px 8px #888888b7;
+	transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.8s;
+}
+.post-title {
+	font-size: 1.6rem;
+	padding: 5px;
+}
+.post-date {
+	font-size: 1rem;
+	font-weight: 300;
+}
+.post-content {
+	font-size: 1.1rem;
+	font-weight: 300;
+}
