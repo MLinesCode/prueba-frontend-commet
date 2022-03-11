@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './carduser.css';
 
+// eslint-disable-next-line react/prop-types
 function CardUser({ picture, firstName, id }) {
 	return (
 		<Link to='/profile'>
