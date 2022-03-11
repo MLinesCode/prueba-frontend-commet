@@ -6,7 +6,7 @@ function CardUser({ picture, firstName, id }) {
 		<Link to='/profile'>
 			<div className='user-container'>
 				<figure className='user-image'>
-					<img src={picture} alt={picture} />
+					<img src={picture} alt={firstName} />
 				</figure>
 				<div className='user-info'>
 					<p className='user-name'>{firstName}</p>

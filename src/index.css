@@ -9,3 +9,7 @@ body {
 	padding: 3.8rem 0 0 0;
 	font-family: 'Fredoka', sans-serif;
 }
+
+a {
+	text-decoration: none;
+}
