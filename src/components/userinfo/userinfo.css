@@ -1,0 +1,25 @@
+.profile-container {
+	width: 80%;
+	max-width: 450px;
+	margin: auto;
+	text-align: center;
+}
+.profile-image {
+	height: 10rem;
+	width: 10rem;
+	margin: auto;
+	border-radius: 50%;
+	background-color: blueviolet;
+}
+.profile-name {
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+}
+.profile-lastname {
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+.profile-register {
+	font-size: 1.3rem;
+	font-weight: 300;
+}
