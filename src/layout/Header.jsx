@@ -1,4 +1,3 @@
-import React from 'react';
 import LogoCommet from '../assets/comet.png';
 import SearchIcon from '../assets/search.png';
 import './header.css';
