@@ -7,13 +7,14 @@
 	height: 50px;
 	width: 50px;
 	margin: 0.8rem;
+	filter: drop-shadow(2px 2px 6px #383838);
 }
 .profile-navigation img {
 	height: 100%;
 	width: 100%;
 }
 .profile-user {
-	margin-top: 8rem;
+	margin-top: 4rem;
 	background-image: linear-gradient(360deg, #feffff 22%, transparent 70%);
 }
 .profile-posts {
