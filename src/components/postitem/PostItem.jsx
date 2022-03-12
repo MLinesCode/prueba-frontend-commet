@@ -1,3 +1,4 @@
+import TagItem from '../tagitem/TagItem';
 import './postitem.css';
 
 function PostItem() {
@@ -11,6 +12,7 @@ function PostItem() {
 				iste autem maxime repellendus tenetur harum dolorem architecto ea
 				voluptas.
 			</p>
+			<TagItem tag='Humor' />
 		</div>
 	);
 }
