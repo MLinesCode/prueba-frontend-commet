@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import PostItem from '../../components/postitem/PostItem';
 import UserInfo from '../../components/userinfo/UserInfo';
 import IconBack from '../../assets/back.png';
+import TagContainer from '../../components/tagcontainer/TagContainer';
 import './profile.css';
 
 function Profile() {
@@ -24,6 +25,10 @@ function Profile() {
 			</section>
 			<section className='profile-posts'>
 				<h2>Mis posts</h2>
+				<div className='profile-tags'>
+					<h3>Tags:</h3>
+					<TagContainer />
+				</div>
 				<PostItem />
 				<PostItem />
 				<PostItem />

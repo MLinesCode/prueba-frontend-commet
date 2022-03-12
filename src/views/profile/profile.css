@@ -25,3 +25,10 @@
 	font-size: 1.8rem;
 	padding: 1rem;
 }
+.profile-tags {
+	margin: 0.2rem 0.8rem;
+}
+.profile-tags h3 {
+	font-weight: 300;
+	color: #b1b1b1;
+}
