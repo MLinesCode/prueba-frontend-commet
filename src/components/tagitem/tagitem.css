@@ -1,0 +1,19 @@
+.tag-container {
+	margin: 0.4rem;
+	max-width: 400px;
+	color: azure;
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+.tag-item {
+	width: 4.4rem;
+	padding: 4px;
+	border: none;
+	border-radius: 4px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	background-color: #033754;
+}
