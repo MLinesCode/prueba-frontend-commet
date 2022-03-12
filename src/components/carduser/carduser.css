@@ -12,6 +12,11 @@
 	background-color: #033754;
 	box-shadow: 0 4px 11px rgba(8, 8, 8, 0.568);
 }
+.user-container:hover {
+	transform: translateY(-8px);
+	box-shadow: 3px 4px 12px #888888b7;
+	transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.7s;
+}
 .user-image {
 	height: 95px;
 	width: 95px;

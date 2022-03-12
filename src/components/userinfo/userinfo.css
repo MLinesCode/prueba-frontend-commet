@@ -9,7 +9,14 @@
 	width: 10rem;
 	margin: auto;
 	border-radius: 50%;
+	object-fit: cover;
+	overflow: hidden;
+	border: 5px solid #0dbabb;
 	background-color: blueviolet;
+}
+.profile-image img {
+	height: 100%;
+	width: 100%;
 }
 .profile-name {
 	font-size: 2.5rem;
